@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #fff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.latest {
+  padding: 30px;
+}
+
+.latest h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.blog-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.blog-card {
+  width: 30%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.blog-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.blog-card .category {
+  color: #888;
+  font-size: 14px;
+  margin: 10px;
+}
+
+.blog-card h3 {
+  margin: 10px;
+  font-size: 18px;
+}
+
+.blog-card .desc {
+  margin: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Post Page */
+.post-img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.comments {
+  margin-top: 30px;
+}
+
+.comments textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.comments button {
+  padding: 10px 20px;
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+/* Post Page Image */
+.post-img {
+  width: 60%;       /* smaller than full width */
+  max-width: 400px; /* don't let it get too big */
+  height: auto;     /* keep aspect ratio */
+  display: block;
+  margin: 20px auto; /* center image */
+  border-radius: 10px; /* smooth corners */
+}
+

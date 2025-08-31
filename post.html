@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Post</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Blog</h1>
+  </header>
+
+  <main>
+    <article>
+      <img id="post-img" class="post-img" alt="Post Image">
+      <h2 id="post-title">Post Title</h2>
+      <p id="post-content">This is the blog content.</p>
+    </article>
+
+    <!-- Comment Section -->
+    <section class="comments">
+      <h3>Comments</h3>
+      <div id="comment-list"></div>
+      <textarea id="comment-input" placeholder="Write a comment..."></textarea>
+      <button onclick="addComment()">Post Comment</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
